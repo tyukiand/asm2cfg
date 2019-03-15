@@ -1,0 +1,4 @@
+trg/
+*.o
+dotExperiments/
+*.sublime-*

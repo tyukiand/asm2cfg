@@ -1,0 +1,4 @@
+#!/bin/bash
+inputFile="$1"
+withoutEnding="$(echo "$inputFile" | rev | cut -d'.' -f2- | rev)"
+asm2cfg "$inputFile" | dot -Tpng -o "${withoutEnding}.png"
