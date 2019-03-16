@@ -5,9 +5,9 @@ Converts assembly code into control flow graphs (rendered with DOT).
 
 ### Example
 
-Takes input that looks like this::
+Takes input that looks like this:
 
-```
+```nasm
   401190:	push   r15
   401192:	push   r14
   401194:	mov    esi,0x401b10
@@ -82,18 +82,18 @@ and turns it into a control flow graph that looks like this:
 
 Mostly good for nostalgia about one of the greatest games I've ever played.
 
-To quote a famous bomb:
+To quote a famous bomb from a famous lab:
 
-> Welcome to my fiendish little bomb. You have 6 phases with
-> which to blow yourself up. Have a nice day!
-> Phase 1 defused. How about the next one?
-> That's number 2.  Keep going!
-> Halfway there!
-> So you got that one.  Try this one.
-> Good work!  On to the next...
-> Curses, you've found the secret phase!
-> But finding it and solving it are quite different...
-> Wow! You've defused the secret stage!
-> Congratulations! You've defused the bomb!
+>     Welcome to my fiendish little bomb. You have 6 phases with
+>     which to blow yourself up. Have a nice day!
+>     Phase 1 defused. How about the next one?
+>     That's number 2.  Keep going!
+>     Halfway there!
+>     So you got that one.  Try this one.
+>     Good work!  On to the next...
+>     Curses, you've found the secret phase!
+>     But finding it and solving it are quite different...
+>     Wow! You've defused the secret stage!
+>     Congratulations! You've defused the bomb!
 
 Border relations with Canada have never been better.
