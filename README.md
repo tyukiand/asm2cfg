@@ -73,7 +73,7 @@ Takes input that looks like this:
   401346:	nop    WORD PTR cs:[rax+rax*1+0x0]
 ```
 
-and turns it into a control flow graph that looks like this:
+and turns it into a `.dot` file that describes a control flow graph that looks like this:
 
 ![example graph](./examples/example.png)
 
